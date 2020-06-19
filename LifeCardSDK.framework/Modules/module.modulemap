@@ -1,0 +1,11 @@
+framework module LifeCardSDK {
+  umbrella header "LifeCardSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module LifeCardSDK.Swift {
+    header "LifeCardSDK-Swift.h"
+    requires objc
+}
